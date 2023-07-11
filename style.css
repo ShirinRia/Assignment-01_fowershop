@@ -54,11 +54,24 @@ body{
     height: 600px;
 }
 /* featured style */
+figure{
+    text-align: center;
+}
+figurecaption{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+figure figurecaption h4{
+    margin-top:20px;
+}
 .box-one,.box-two,.box-three{
     text-align: center;
     border-radius: 300px 300px 0px 0px;
 }
 .box-one{
+   
     padding: 100px 50px 0px 50px;
     background-color: rgba(167, 33, 98, 0.15);
 }
@@ -71,6 +84,110 @@ body{
     background-color:rgba(71, 125, 17, 0.15);
       
 }
+/* extra section */
+.extra-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    /* row-gap: 100px; */
+}
+.extrasecnd{
+    display: flex;
+    flex-direction: column;
+  align-content: space-around;
+}
+.extra-st-column{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    margin-top: 15px;
+}
+.extra-all,.extra-bouquet{
+    height: 400px;
+    display: flex;
+    align-items:center;
+   
+    
+}
+.extra-all-text,.extra-bouquet-text{
+    /* margin:auto auto; */
+    margin:20px 40px;
+    background-color:rgba(255, 0, 0, 0.486);
+    text-align: center;
+    border-radius:8px;
+    color:#FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding:20px 40px;
+  
+}
+.extra-tulip-text{
+    margin:70px 140px;
+    background-color:rgba(255, 0, 0, 0.486);
+    text-align: center;
+    border-radius:8px;
+    color:#FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding:20px 0px;
+}
+.extra-rose-text{
+    margin:70px 40px;
+    background-color:rgba(255, 0, 0, 0.486);
+    text-align: center;
+    border-radius:8px;
+    color:#FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding:20px 40px;
+}
+.extra-sunflower-text{
+    margin:55px 40px;
+    background-color:rgba(255, 0, 0, 0.486);
+    text-align: center;
+    border-radius:8px;
+    color:#FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding:20px 40px;
+}
+
+.extra-tulip{
+  
+    background-image:url('./Flower_Asset/tulip.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-radius:8px;
+    height:190px;
+    text-align: center;
+}
+.extra-all{
+    background-image:url('./Flower_Asset/all.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-radius:8px;
+}
+.extra-rose{
+    background-image:url('./Flower_Asset/rose.jpg');
+    background-repeat:no-repeat;
+   background-size:100% 100%;
+   border-radius:8px;
+   height:190px;
+}
+.extra-sunflower{
+    background-image:url('./Flower_Asset/sunflower.jpg');
+    background-repeat:no-repeat;
+   background-size:100% 100%;
+   border-radius:8px;
+}
+.extra-bouquet{
+   
+    background-image:url('./Flower_Asset/Bouquets.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-radius:8px;
+}
+
 /* hot deal */
 .hot-deal{
     background-color:#E554730D;
@@ -132,6 +249,8 @@ body{
 }
 
 .box img{
+    margin:0px;
+    padding: 0px;
     width:250px;
     height: 300px;
 }
