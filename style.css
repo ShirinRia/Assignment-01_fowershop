@@ -18,7 +18,7 @@ body{
 }
 
 .insta-deal,.featured-extra{
-    margin:110px;
+    margin:150px;
 }
 
 /* header style */
@@ -154,7 +154,7 @@ figure figurecaption h4{
 
 .extra-tulip{
   
-    background-image:url('./Flower_Asset/tulip.jpg');
+    background-image:url('./Flower_Asset/Tulip.jpg');
     background-repeat:no-repeat;
     background-size:100% 100%;
     border-radius:8px;
@@ -168,7 +168,7 @@ figure figurecaption h4{
     border-radius:8px;
 }
 .extra-rose{
-    background-image:url('./Flower_Asset/rose.jpg');
+    background-image:url('./Flower_Asset/Rose.jpg');
     background-repeat:no-repeat;
    background-size:100% 100%;
    border-radius:8px;
