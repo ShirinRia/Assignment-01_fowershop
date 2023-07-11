@@ -18,7 +18,7 @@ body{
 }
 
 .insta-deal{
-    margin:125px 240px;
+    margin:110px;
 }
 /* header style */
 /* banner */
@@ -72,6 +72,7 @@ body{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 15px;
 }
 
 .deal-content p{
@@ -79,17 +80,24 @@ body{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 30px;
+}
+.subscribe-frm{
+    display: flex;
+    /* justify-content: space-between; */
+    gap:15px;
 }
 
 .subscribe-frm input{
     border:none;
     padding:20px;
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
+    text-align: left;
     font-size: 16px;
     font-weight: 400;
     border-radius: 8px;
     background: #FFF;
+    width:100%;
 }
 /* footer styles */
 
